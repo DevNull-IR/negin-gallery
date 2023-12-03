@@ -1,0 +1,55 @@
+@import url("../fontiran.css");
+
+:root {
+    --bg-color: #FFFEFE;
+    --cl-select: #9A2764;
+    --bg-head: #fff8fc;
+    --color-description: #C79CBE;
+    --radius-header: 20px;
+    --bg-frame: #979797;
+    --cl-paragraph: #926789;
+
+    --hover-color: #E9E9E9;
+
+    --white: #fff;
+    --black: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    direction: rtl;
+    overflow: auto;
+}
+
+p, h1, h2, h3, h4, h5, h6, a, span, b, strong, i, em, rem, del, div, section, input {
+    font-family: KalamehWeb, Kalameh;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+h1 {
+    font-family: KalamehWeb;
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--cl-select);
+}
+
+section > p, section > div > p {
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--cl-paragraph);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
